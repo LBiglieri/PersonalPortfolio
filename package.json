@@ -1,11 +1,11 @@
 {
-	"name": "reactfolio",
+	"name": "LautaroBiglieriPortfolio",
 	"version": "1.1.0",
-	"description": "Personal portfolio template built using Reactjs",
+	"description": "Lautaro Biglieri Personal portfolio ",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Lautaro Biglieri",
+		"email": "lautarobiglieridev@gmail.com",
+		"url": "https://lautaro-biglieri.onrender.com/"
 	},
 	"license": "MIT",
 	"private": true,
