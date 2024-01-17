@@ -15,6 +15,14 @@
 	overflow: hidden;
 }
 
+.all-projects-title {
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 20px;
+	margin-top: -3px;
+	color: var(--secondary-color);
+}
+
 @media (max-width: 600px) {
 	.all-projects-project {
 		width: calc(100% / 2);

@@ -6,20 +6,25 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faTwitter,
 	faGithub,
-	faStackOverflow,
+	faLinkedin,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
+/* 
 import Article from "../components/homepage/article";
+*/
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+
+/* 
 import myArticles from "../data/articles";
+*/
 
 import "./styles/homepage.css";
 
@@ -135,12 +140,12 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -171,6 +176,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
+							{/*
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -187,7 +193,7 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
-
+							*/}
 							<div className="homepage-works">
 								<Works />
 							</div>
